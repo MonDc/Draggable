@@ -1,0 +1,27 @@
+
+html{
+    font-size: 62.5%;
+}
+*{
+   
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.draggable{
+    width: 90px;
+    height: 90px;
+    background-color: saddlebrown;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.draggable:hover{
+    background-color: rgb(243, 159, 99);
+}
